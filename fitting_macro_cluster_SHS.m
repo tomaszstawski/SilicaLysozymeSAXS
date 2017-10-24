@@ -240,6 +240,7 @@ catch
 for k=first_frame:last_frame  
 	tic; %start measuring time
 	try
+	
 	%read in the data file for the k-th frame	
 		data=real(dlmread([imdir,Files(k).name])); 
 		display(["Processing frame ",int2str(k-first_frame+1)," out of ",...
@@ -443,7 +444,6 @@ end_try_catch
 	display(["Elapsed time: ",int2str(total_time./60)," minutes."]);
 	fflush(stdout);
 	%summary
-
 	figure(2);
 	errorbar([first_frame:k],p_out_poly(1,first_frame:k),...
 	p_out_poly_error(1,first_frame:k));
