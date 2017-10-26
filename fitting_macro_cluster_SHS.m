@@ -48,9 +48,9 @@ mkdir (fitting_results_dir);
 %--------------------------------------------------------%
 %constants
 %--------------------------------------------------------%
-%background level fro MCSAS fit
+%background level from the MCSAS fit
 bkg = 0.269/100; 
- %contrast from silica in water in [m^-2]
+%contrast from silica in water in [m^-2]
 SLD = (1.8831e-5-9.469e-6)*1e16;
 %interaction potential in kT
 U = 2.5; 
@@ -194,7 +194,7 @@ normal = number_step/(rows(matrixDist(:,1))-1);
 %--------------------------------------------------------%
 %count the files in the input directory
 Files=dir([imdir,'*.*']); %count the files in the input directory
- %select data frames to processes
+%select data frames to processes
 first_frame = 1; %select data frames to processes e.g. 490 to 3500
 last_frame=length(Files);
 
@@ -202,7 +202,7 @@ last_frame=length(Files);
 total_time=0;
 
 try
-	%follow up on a broken fit
+%follow up on a broken fit
 		p_out_poly=dlmread([fitting_results_dir,...
 		'fitting_parameters_SHS_poly_frames.out']);
 		p_out_poly_error=dlmread([fitting_results_dir,...
@@ -212,7 +212,7 @@ try
 		p_out_mono_error=dlmread([fitting_results_dir,...
 		'fitting_parameters_SHS_mono_errors_frames.out']);
 catch
-	%or create a new empty results matrix of a right size
+%or create a new empty results matrix of a right size
     p_out_poly = zeros(5,last_frame); 
     p_out_poly_error = zeros(5,last_frame);
     p_out_mono = zeros(4,last_frame);
@@ -426,8 +426,6 @@ for k=first_frame:last_frame
 	set(gca,'YScale','log','XScale','log');
 	grid on;
 	print([fitting_results_dir,'fit_frame_SHS_poly-',int2str(k),'.pdf']);
-
-	
 	catch
 end_try_catch
 
