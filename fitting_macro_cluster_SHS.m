@@ -32,6 +32,29 @@ pkg load optim;
 graphics_toolkit gnuplot; %This is configuration-specific. 
 %Run "available_graphics_toolkits" to choose the most appropirate one. 
 
+%--------------------------------------------------------%
+%input and output definitions
+%--------------------------------------------------------%
+%distribution histogram from MCSAS fit
+distfile = 'distribution_data/histogram_linear.dat';
+%the non-aggregated silica scattering pattern 
+reffile = 'distribution_data/silica_initial.dat'; 
+%set input directory
+imdir = 'ResultBkgSub_selected/'; 
+%output directory
+fitting_results_dir='fitting_results/test/';
+mkdir (fitting_results_dir);
+
+%--------------------------------------------------------%
+%constants
+%--------------------------------------------------------%
+%background level fro MCSAS fit
+bkg = 0.269/100; 
+ %contrast from silica in water in [m^-2]
+SLD = (1.8831e-5-9.469e-6)*1e16;
+%interaction potential in kT
+U = 2.5; 
+
 ###########################################################
 %define model functions
 ###########################################################
@@ -42,12 +65,11 @@ function PofQ = Sphere(x,R)
     PofQ = (3.*(sin(x*R')-(x*R').*cos(x*R'))./(x*R').^3).^2;
 end
 
-
 %--------------------------------------------------------%
 %Volume in cm^3 when R in nm
 %--------------------------------------------------------%
 function VofR = V(R)
-    VofR = ((4/3)*pi()*(R.*1e-7).^3);
+    VofR = 0.8919;
 end
 
 %--------------------------------------------------------%
@@ -143,36 +165,13 @@ function result = FF_SHS_poly(x,dr,dist,normal,bkg,SLD,v,par_A,D,steps,fit_par,U
 	result = (bkg + (SLD.^2).*integrand./normal);
 end
 
-
-%--------------------------------------------------------%
-%input data for the form factor calcualtions
-%--------------------------------------------------------%
-%distribution histogram from MCSAS fit
-distfile = 'distribution_data/histogram_linear.dat';
-%the non-aggregated silica scattering pattern 
-reffile = 'distribution_data/silica_initial.dat'; 
-%output directory
-fitting_results_dir='fitting_results/selected/';
-mkdir (fitting_results_dir);
-
-%--------------------------------------------------------%
-%constants
-%--------------------------------------------------------%
-%background level fro MCSAS fit
-bkg = 0.269/100; 
- %contrast from silica in water
-SLD = (1.8831e-5-9.469e-6)*1e16;
-%interaction potential in kT
-U = 2.5; 
-
-
 %--------------------------------------------------------%
 
 ###########################################################
 %Form factor calcutions based on the size distribution
 ###########################################################
 %--------------------------------------------------------%
-%read in files
+%read in the distribution data
 %--------------------------------------------------------%
 A=real(dlmread(distfile));
 %select relevant data from the original MCSAS output file: X, Y, dY
@@ -193,8 +192,6 @@ normal = number_step/(rows(matrixDist(:,1))-1);
 %--------------------------------------------------------%
 %Read in bkg-corrected data files from the input directory
 %--------------------------------------------------------%
-%set input directory
-imdir = 'ResultBkgSub_selected/'; 
 %count the files in the input directory
 Files=dir([imdir,'*.*']); %count the files in the input directory
  %select data frames to processes
