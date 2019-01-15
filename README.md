@@ -3,10 +3,10 @@
 WHAT IS THIS FOR?
 This repository constitutes a part of the supplementary material to our publication 
 
-"Mechanism of silica–lysozyme composite formation unravelled by in situ fast SAXS"
+<i>Mechanism of silica–lysozyme composite formation unravelled by in situ fast SAXS</i>
 Tomasz M. Stawski, Daniela B. van den Heuvel, Rogier Besselink, Dominique J. Tobler and Liane G. Benning
 
-Beilstein J. Nanotechnol. 2019, 10, 182–197. doi:10.3762/bjnano.10.17
+<b> Beilstein J. Nanotechnol. 2019, 10, 182–197. doi:10.3762/bjnano.10.17 </b>
 
 It contains routines in GNU Octave/Matlab used to processes SAXS (small-angle X-ray scattering) patterns. We used the scripts to perform fits and analyze data obtained during the experiment at the BioSAXS beamline P12 of the EMBL at PETRA III (DESY, Germany).
 
