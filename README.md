@@ -3,8 +3,8 @@
 WHAT IS THIS FOR?
 This repository constitutes a part of the supplementary material to our publication 
 
-<i>Mechanism of silica–lysozyme composite formation unravelled by in situ fast SAXS</i>
-Tomasz M. Stawski, Daniela B. van den Heuvel, Rogier Besselink, Dominique J. Tobler and Liane G. Benning
+<i>"Mechanism of silica–lysozyme composite formation unravelled by in situ fast SAXS"</i>
+by Tomasz M. Stawski, Daniela B. van den Heuvel, Rogier Besselink, Dominique J. Tobler and Liane G. Benning
 
 <b> Beilstein J. Nanotechnol. 2019, 10, 182–197. doi:10.3762/bjnano.10.17 </b>
 
