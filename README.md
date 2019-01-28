@@ -8,6 +8,8 @@ by Tomasz M. Stawski, Daniela B. van den Heuvel, Rogier Besselink, Dominique J. 
 
 <b> Beilstein J. Nanotechnol. 2019, 10, 182–197. doi:10.3762/bjnano.10.17 </b>
 
+![graphical_abstract](https://user-images.githubusercontent.com/10513547/51823929-1d88c780-22e1-11e9-98a8-e160cedac72d.png)
+
 It contains routines in GNU Octave/Matlab used to processes SAXS (small-angle X-ray scattering) patterns. We used the scripts to perform fits and analyze data obtained during the experiment at the BioSAXS beamline P12 of the EMBL at PETRA III (DESY, Germany).
 
 HOW TO USE?
