@@ -7,6 +7,9 @@ This repository constitutes a part of the supplementary material to our publicat
 by Tomasz M. Stawski, Daniela B. van den Heuvel, Rogier Besselink, Dominique J. Tobler and Liane G. Benning
 
 <b> Beilstein J. Nanotechnol. 2019, 10, 182–197. doi:10.3762/bjnano.10.17 </b>
+https://www.beilstein-journals.org/bjnano/articles/10/17
+
+This research was made possible by two Marie Curie grants from the European Commission: the NanoSiAl Individual Fellowship, Project No. 703015.
 
 ![graphical_abstract](https://user-images.githubusercontent.com/10513547/51824009-69d40780-22e1-11e9-87e4-bef5bb2a8113.png)
 
