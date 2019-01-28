@@ -4,11 +4,12 @@
 
 This repository constitutes a part of the supplementary material to our publication 
 
-<i>"Mechanism of silica–lysozyme composite formation unravelled by in situ fast SAXS"</i>
+<i><b>"Mechanism of silica–lysozyme composite formation unravelled by in situ fast SAXS"</b></i>
 by Tomasz M. Stawski, Daniela B. van den Heuvel, Rogier Besselink, Dominique J. Tobler and Liane G. Benning
 
 <b> Beilstein J. Nanotechnol. 2019, 10, 182–197. doi:10.3762/bjnano.10.17 </b>
-https://www.beilstein-journals.org/bjnano/articles/10/17
+
+ https://www.beilstein-journals.org/bjnano/articles/10/17
 
 <b> This research was made possible by two Marie Curie grants from the European Commission: the NanoSiAl Individual Fellowship, Project No. 703015. </b>
 
