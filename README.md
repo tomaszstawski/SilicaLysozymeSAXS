@@ -1,6 +1,7 @@
 # SilicaLysozymeSAXS
 
-WHAT IS THIS FOR?
+<b> WHAT IS THIS FOR? </b>
+
 This repository constitutes a part of the supplementary material to our publication 
 
 <i>"Mechanism of silica–lysozyme composite formation unravelled by in situ fast SAXS"</i>
@@ -9,13 +10,13 @@ by Tomasz M. Stawski, Daniela B. van den Heuvel, Rogier Besselink, Dominique J. 
 <b> Beilstein J. Nanotechnol. 2019, 10, 182–197. doi:10.3762/bjnano.10.17 </b>
 https://www.beilstein-journals.org/bjnano/articles/10/17
 
-This research was made possible by two Marie Curie grants from the European Commission: the NanoSiAl Individual Fellowship, Project No. 703015.
+<b> This research was made possible by two Marie Curie grants from the European Commission: the NanoSiAl Individual Fellowship, Project No. 703015. </b>
 
 ![graphical_abstract](https://user-images.githubusercontent.com/10513547/51824009-69d40780-22e1-11e9-87e4-bef5bb2a8113.png)
 
 It contains routines in GNU Octave/Matlab used to processes SAXS (small-angle X-ray scattering) patterns. We used the scripts to perform fits and analyze data obtained during the experiment at the BioSAXS beamline P12 of the EMBL at PETRA III (DESY, Germany).
 
-HOW TO USE?
+<b> HOW TO USE? </b>
 The script "fitting_macro_cluster_SHS.m" was written and tested in GNU Octave >4. It should also work in Matlab. The following packages have to be installed as well: NAN, OPTIM.
 
 The input and output directories can be edited within the script. By default we use the following data structure:
