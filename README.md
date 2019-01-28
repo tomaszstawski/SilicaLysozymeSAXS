@@ -12,7 +12,8 @@ https://www.beilstein-journals.org/bjnano/articles/10/17
 
 <b> This research was made possible by two Marie Curie grants from the European Commission: the NanoSiAl Individual Fellowship, Project No. 703015. </b>
 
-![graphical_abstract](https://user-images.githubusercontent.com/10513547/51824009-69d40780-22e1-11e9-87e4-bef5bb2a8113.png)
+
+![graphical_abstract](https://user-images.githubusercontent.com/10513547/51824443-92a8cc80-22e2-11e9-9779-77ae3e3d3763.png)
 
 It contains routines in GNU Octave/Matlab used to processes SAXS (small-angle X-ray scattering) patterns. We used the scripts to perform fits and analyze data obtained during the experiment at the BioSAXS beamline P12 of the EMBL at PETRA III (DESY, Germany).
 
