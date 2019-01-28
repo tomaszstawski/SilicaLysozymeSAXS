@@ -11,7 +11,7 @@ by Tomasz M. Stawski, Daniela B. van den Heuvel, Rogier Besselink, Dominique J. 
 
  https://www.beilstein-journals.org/bjnano/articles/10/17
 
-<b> This research was made possible by two Marie Curie grants from the European Commission: the NanoSiAl Individual Fellowship, Project No. 703015. </b>
+<b> This research was made possible by a Marie Curie grant from the European Commission: the NanoSiAl Individual Fellowship, Project No. 703015. </b>
 
 
 ![graphical_abstract](https://user-images.githubusercontent.com/10513547/51824443-92a8cc80-22e2-11e9-9779-77ae3e3d3763.png)
