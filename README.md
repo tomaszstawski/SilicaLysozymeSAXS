@@ -1,5 +1,6 @@
 # SilicaLysozymeSAXS
 
+<b> This research was made possible by a Marie Curie grant from the European Commission: the NanoSiAl Individual Fellowship, Project No. 703015. </b>
 <b> WHAT IS THIS FOR? </b>
 
 This repository constitutes a part of the supplementary material to our publication 
@@ -11,7 +12,6 @@ by Tomasz M. Stawski, Daniela B. van den Heuvel, Rogier Besselink, Dominique J. 
 
  https://www.beilstein-journals.org/bjnano/articles/10/17
 
-<b> This research was made possible by a Marie Curie grant from the European Commission: the NanoSiAl Individual Fellowship, Project No. 703015. </b>
 
 The main objective of the NanoSiAl project is to develop, test and validate the methods for the direct in situ and real-time structural and kinetic characterisation of the alumina and silica colloid formation pathways at the length-scale of <100 nm. 
 Alumina and silica nanophases play a crucial role in rock weathering and their formation and destruction controls Earth’s response to global climate change. The presence of various products of aqueous weathering of aluminosilicates points to a complex activity of water, and is considered as the geological indication for the occurrence of life-habitable conditions. In this regard, a more complete picture of the water-alumina-silica interactions would allow for better specifying the molecular-level conditions for early life. 
