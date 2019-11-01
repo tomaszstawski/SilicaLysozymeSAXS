@@ -1,6 +1,7 @@
 # SilicaLysozymeSAXS
 
 <b> This research was made possible by a Marie Curie grant from the European Commission: the NanoSiAl Individual Fellowship, Project No. 703015. </b>
+
 <b> WHAT IS THIS FOR? </b>
 
 This repository constitutes a part of the supplementary material to our publication 
